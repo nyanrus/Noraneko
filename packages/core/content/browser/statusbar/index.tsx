@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { insert, render } from "@solid-xul/solid-xul";
+import { insert, render } from "solid-xul/solid-xul";
 import { gFloorpStatusBar } from "./browser-statusbar";
 import { ContextMenu } from "./context-menu";
 import { StatusBar } from "./statusbar";

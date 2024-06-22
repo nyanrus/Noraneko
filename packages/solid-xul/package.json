@@ -1,0 +1,11 @@
+{
+  "name": "solid-xul",
+  "private": true,
+  "dependencies": {
+    "solid-js": "^1.8.17"
+  },
+  "files": [
+    "./jsx-runtime.ts",
+    "./solid-xul.ts"
+  ]
+}

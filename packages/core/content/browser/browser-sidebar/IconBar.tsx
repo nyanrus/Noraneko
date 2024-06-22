@@ -1,4 +1,4 @@
-import "@solid-xul/jsx-runtime";
+import "solid-xul/jsx-runtime";
 import { createEffect, For, onMount } from "solid-js";
 import { createSignal } from "solid-js";
 import Sortable from "sortablejs";

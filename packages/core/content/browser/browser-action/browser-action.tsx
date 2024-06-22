@@ -5,7 +5,7 @@
 
 // NOTICE: Do not add toolbar buttons code here. Create new folder or file for new toolbar buttons.
 
-import { insert } from "@solid-xul/solid-xul";
+import { insert } from "solid-xul/solid-xul";
 import type { JSXElement } from "solid-js";
 
 const { CustomizableUI } = ChromeUtils.importESModule(

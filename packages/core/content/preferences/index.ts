@@ -1,4 +1,4 @@
-import { insert, render } from "@solid-xul/solid-xul";
+import { insert, render } from "solid-xul/solid-xul";
 import { csk } from "./csk";
 import { category } from "./csk/category";
 import { initHashChange } from "./hashchange";

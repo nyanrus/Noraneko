@@ -1,4 +1,4 @@
-import { insert } from "@solid-xul/solid-xul";
+import { insert } from "solid-xul/solid-xul";
 import { ContextMenu } from "./context-menu";
 import type { JSXElement } from "solid-js";
 

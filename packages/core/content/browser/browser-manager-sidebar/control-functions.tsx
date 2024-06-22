@@ -1,4 +1,4 @@
-import { insert } from "@solid-xul/solid-xul";
+import { insert } from "solid-xul/solid-xul";
 import type { CBrowserManagerSidebar } from ".";
 
 const { ContextualIdentityService } = ChromeUtils.importESModule(

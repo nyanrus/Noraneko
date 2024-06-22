@@ -1,4 +1,4 @@
-import { render } from "@solid-xul/solid-xul";
+import { render } from "solid-xul/solid-xul";
 import { IconBar } from "./IconBar";
 import Sortable from "sortablejs";
 

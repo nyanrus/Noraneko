@@ -103,6 +103,18 @@ importers:
         specifier: ^4.3.2
         version: 4.3.2(typescript@5.4.5)(vite@5.2.12(@types/node@20.13.0)(lightningcss@1.25.1))
 
+  packages/nora-core:
+    dependencies:
+      solid-xul:
+        specifier: workspace:^
+        version: link:../solid-xul
+
+  packages/solid-xul:
+    dependencies:
+      solid-js:
+        specifier: ^1.8.17
+        version: 1.8.17
+
 packages:
 
   '@ampproject/remapping@2.3.0':

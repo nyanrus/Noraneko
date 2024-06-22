@@ -1,0 +1,7 @@
+{
+  "name": "nora-core",
+  "private": true,
+  "dependencies": {
+    "solid-xul": "workspace:^"
+  }
+}

@@ -1,5 +1,5 @@
 import { onMount } from "solid-js";
-import type {} from "@solid-xul/jsx-runtime";
+import type {} from "solid-xul/jsx-runtime";
 
 export function category() {
   return (

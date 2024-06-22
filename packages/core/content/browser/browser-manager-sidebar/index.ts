@@ -9,7 +9,7 @@ import { sidebarSelectBox } from "@content/browser/browser-webpanel/browser-webp
 
 import { Sidebar3Data } from "./SidebarData";
 import { PanelWindowUtils } from "@private/browser-manager-sidebar/PanelWindowUtils";
-import { render } from "@solid-xul/solid-xul";
+import { render } from "solid-xul/solid-xul";
 
 export class CBrowserManagerSidebar {
   private static instance: CBrowserManagerSidebar;

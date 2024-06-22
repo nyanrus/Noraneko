@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "paths": {
+      "@modules/*": ["./modules/*"],
+      "@skin/*": ["./skin/*"]
+    }
+  }
+}
