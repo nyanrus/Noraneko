@@ -9,7 +9,7 @@ const r = (dir: string) => {
 
 export default defineConfig({
   root: r("src"),
-  publicDir: r("src/public"),
+  publicDir: r("public"),
   build: {
     sourcemap: true,
     reportCompressedSize: false,
@@ -32,9 +32,12 @@ export default defineConfig({
     },
     outDir: r("dist/noraneko"),
   },
-  css: {
-    transformer: "lightningcss",
-  },
+  //? https://github.com/parcel-bundler/lightningcss/issues/685
+  //? lepton uses System Color and that occurs panic.
+  //? when the issue resolved, gladly we can use lightningcss
+  // css: {
+  //   transformer: "lightningcss",
+  // },
 
   plugins: [
     tsconfigPaths(),

@@ -64,7 +64,7 @@ importers:
         specifier: ^3.3.2
         version: 3.3.2
       lightningcss:
-        specifier: ^1.25.1
+        specifier: ^1.23.0
         version: 1.25.1
       linkedom:
         specifier: 0.18.3
@@ -103,17 +103,17 @@ importers:
         specifier: ^4.3.2
         version: 4.3.2(typescript@5.5.2)(vite@5.3.1(@types/node@20.14.8)(lightningcss@1.25.1))
 
-  packages/core:
+  apps/core:
     dependencies:
       '@nora/shared':
         specifier: workspace:^
-        version: link:../shared
+        version: link:../../packages/shared
       '@nora/skin':
         specifier: workspace:^
-        version: link:../skin
+        version: link:../../packages/skin
       '@nora/solid-xul':
         specifier: workspace:^
-        version: link:../solid-xul
+        version: link:../../packages/solid-xul
     devDependencies:
       vite:
         specifier: 5.2.12
@@ -126,11 +126,11 @@ importers:
       '@nora/solid-xul':
         injected: true
 
-  packages/pages:
+  apps/pages:
     dependencies:
       '@nora/solid-xul':
         specifier: workspace:^
-        version: link:../solid-xul
+        version: link:../../packages/solid-xul
 
   packages/shared:
     dependencies:

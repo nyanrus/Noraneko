@@ -3,6 +3,7 @@ import { loadStyleSheetWithNsStyleSheetService } from "./stylesheetService.js";
 
 import floorpBaseCSS from "@nora/skin/floorp/css/floorp.css?url";
 import fluerialUICSS from "@nora/skin/floorp-fluerial/css/fluerial.css?url";
+import leptonCSS from "@nora/skin/lepton/css/leptonChrome.css?url"
 
 export async function setBrowserDesign() {
   console.log("setBrowserDesign");
@@ -11,7 +12,7 @@ export async function setBrowserDesign() {
 
   const updateNumber = new Date().getTime();
   const themeCSS = {
-    LeptonUI: "chrome://noraneko/skin/lepton/css/leptonChrome.css",
+    LeptonUI: "chrome://noraneko"+leptonCSS,
 
     FluerialUI: "chrome://noraneko" + fluerialUICSS,
   };
