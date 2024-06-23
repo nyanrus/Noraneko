@@ -1,0 +1,7 @@
+{
+  "name":"@nora/pages",
+  "private": true,
+  "dependencies": {
+    "@nora/solid-xul": "workspace:^"
+  }
+}

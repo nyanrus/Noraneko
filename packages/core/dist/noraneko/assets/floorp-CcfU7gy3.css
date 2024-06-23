@@ -1,0 +1,23 @@
+-back#sidebar2 {
+  list-style-image: url("chrome://noraneko/skin/floorp/icons/arrow_back_FILL0_wght400_GRAD0_opsz24.svg");
+}
+
+-forward#sidebar2 {
+  list-style-image: url("chrome://noraneko/skin/floorp/icons/arrow_forward_FILL0_wght400_GRAD0_opsz24.svg");
+}
+
+-reload#sidebar2 {
+  list-style-image: url("chrome://noraneko/skin/floorp/icons/refresh_FILL0_wght400_GRAD0_opsz24.svg");
+}
+
+-home#sidebar2 {
+  list-style-image: url("chrome://noraneko/skin/floorp/icons/home_FILL0_wght400_GRAD0_opsz24.svg");
+}
+
+-keepPanelWidth#sidebar2 {
+  list-style-image: url("chrome://browser/skin/lepton/screenshot.svg");
+}
+
+-close#sidebar2 {
+  list-style-image: url("chrome://noraneko/skin/floorp/icons/close_FILL0_wght400_GRAD0_opsz24.svg");
+}

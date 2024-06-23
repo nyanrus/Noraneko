@@ -1,7 +1,23 @@
 {
-  "name": "nora-core",
   "private": true,
+  "type": "module",
   "dependencies": {
-    "solid-xul": "workspace:^"
+    "@nora/solid-xul": "workspace:^",
+    "@nora/shared": "workspace:^",
+    "@nora/skin": "workspace:^"
+  },
+  "devDependencies": {
+    "vite": "5.2.12"
+  },
+  "dependenciesMeta": {
+    "@nora/solid-xul": {
+      "injected": true
+    },
+    "@nora/shared": {
+      "injected": true
+    },
+    "@nora/skin": {
+      "injected": true
+    }
   }
 }
