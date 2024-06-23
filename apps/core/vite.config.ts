@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig, PluginOption } from "vite";
 import path from "node:path";
 import tsconfigPaths from "vite-tsconfig-paths";
 import solidPlugin from "vite-plugin-solid";
@@ -41,7 +41,6 @@ export default defineConfig({
 
   plugins: [
     tsconfigPaths(),
-
     solidPlugin({
       solid: {
         generate: "universal",
@@ -49,7 +48,4 @@ export default defineConfig({
       },
     }),
   ],
-  // resolve: {
-  //   preserveSymlinks: true,
-  // },
 });
